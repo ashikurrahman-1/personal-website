@@ -119,3 +119,39 @@ section .half-width img{
     font-size: 20px;
 }
 /* projects section end */
+
+/* inquery part start */
+.inquery{
+    height: 300px;
+}
+.inquery .image-part{
+    background: url(../img/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 65%;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 214px;
+}
+.inquery .image-part h1{
+    display: inline;
+    float: left;
+    font-size: 40px;
+    color: #fff;
+    margin-left: 45px;
+    padding-top: 45px;
+    text-transform: uppercase;
+}
+.inquery .image-part a{
+    float: right;
+    text-decoration: none;
+    background: coral;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 8px;
+    margin: 80px 50px 0 0;
+    text-transform: capitalize;
+}
+/* inquery part end */
