@@ -82,3 +82,40 @@ section .half-width img{
     margin-right: 10px;
 }
 /* Home2 section end */
+
+/* projects section start */
+.projects{
+    background: linear-gradient(#fff, lightgoldenrodyellow);
+}
+.projects h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 45px;
+}
+.projects h1 .project-color{
+    color: orange;
+}
+.projects table tr{
+    width: 100%;
+    margin-left: 75px;
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+.projects table tr td{
+    width: 22%;
+    margin: 0px 2%;
+    padding: 20px;
+    display: inline-block;
+    box-shadow: 0px 0px 50px lightgreen;
+    border-radius: 8px;
+    text-align: center;
+    border-bottom: 7px solid orange;
+}
+.projects table tr td img{
+    width: 100%;
+}
+.projects table tr td h2{
+    font-size: 20px;
+}
+/* projects section end */
