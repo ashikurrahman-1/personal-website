@@ -4,7 +4,8 @@ body{
 }
 /* navbar start */
 nav{
-    padding: 30px 50px;
+    padding: 15px 50px;
+    background: rgb(240, 240, 240);
 }
 nav ul{
     overflow: hidden;
@@ -67,3 +68,17 @@ section .half-width img{
 
 }
 /* Home section end */
+
+/* Home2 section start */
+.home2 .half-width h2{
+    font-size: 40px;
+    color: coral;
+    text-transform: uppercase;
+}
+.home2 .half-width a{
+    background: linear-gradient(45deg, #fd79a8, #e84393);
+}
+.home2 .half-width a i{
+    margin-right: 10px;
+}
+/* Home2 section end */
